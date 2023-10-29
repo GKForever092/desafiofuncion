@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* info */
+
+.info1{
+    text-align: center;
+    margin: 50px;
+}
+
+.info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.info2 .select{
+    display: flex;
+}
+
+.info2 .select p{
+    padding: 5px;
+}
+
+
+/* Stickers */
+
+.sticker-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sticker-container div{
+    display: flex;
+    flex-direction: column;
+}
+
+.sticker-container img{
+    width: 200px;
+    margin: 25px;
+}
+
+/* button */
+
+button{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+}
+
+button:hover{
+    background-color: aqua;
+}

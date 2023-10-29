@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.thing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.thing img{
+    width: 500px;
+}
+
+.thing h1{
+    margin: 50px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1</title>
+    
+    <link rel="stylesheet" href="./assets/css/style1.css">
+
+</head>
+
+<body>
+    <div class="thing">
+        <h1>Presiona la imagen para agregar un borde</h1>
+
+        <img onclick="
+        imagen = document.getElementById('img')
+        if(imagen.style.border){
+            imagen.style.border = ''
+        }
+        else{
+            imagen.style.border = '1px solid red'
+        }"
+         src="./assets/img/perroconlen.jpg" alt="#" id="img" >
+    </div>
+
+</body>
+
+</html>
